@@ -1,0 +1,13 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/6043682.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#text-align { text-align: center }
+#morty {
+    height: 60px ; 
+    width: 60px ;
+    margin-left: 48%;
+}
