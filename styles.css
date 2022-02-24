@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
+
   background: rgb(58,138,234) ;
   background: linear-gradient(180deg, rgba(58,138,234,1) 22%, rgba(255,0,0,1) 100%);
   background-attachment: fixed;
   background-size: cover;
+
+    background: #8a2387 ;
+    background-image:  linear-gradient(to right, #8a2387, #e94057, #f27121) ;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 #Welcome {
@@ -25,7 +32,7 @@ body{
   font-size: 20px;
 
 }
-
+ 
 #github-butt {
   position: absolute;
   box-shadow: 8px 8px #000000;
