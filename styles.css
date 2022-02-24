@@ -1,53 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
+
+  background: rgb(58,138,234) ;
+  background: linear-gradient(180deg, rgba(58,138,234,1) 22%, rgba(255,0,0,1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+
     background: #8a2387 ;
     background-image:  linear-gradient(to right, #8a2387, #e94057, #f27121) ;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 #Welcome {
-    text-align: center;
-    font-family: Pacifico;
-    font-size: 50px;
-
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 50px;
 }
 
 #morty {
-    height: 60px ; 
-    width: 60px ;
-    margin-left: 48%;
+  height: 60px ;
+  width: 60px ;
+  margin-left: 48%;
 }
 
 #p1 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 
 }
  
 #github-butt {
-    height: 50px;
-    width: 50px;
-   margin-left: 45%;
-    transition: 0.5s;
+  position: absolute;
+  box-shadow: 8px 8px #000000;
+  border-radius: 50%;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  margin-left: 42%;
+  transition: 0.5s;
 }
 
 #github-butt:hover {
-    height: 65px;
-    width: 65px ;
+  height: 65px;
+  width: 65px ;
 }
 
 #discord-butt {
-    height: 50px;
-    width: 50px ;
-    margin-left: 1%;
-    transition: 0.5s;
+  position: absolute;
+  box-shadow: 8px 8px #000000;
+  border-radius: 50%;
+  border-style: none;
+  height: 50px;
+  width: 50px ;
+  margin-left: 48.5%;
+  transition: 0.5s;
+}
+
+#button {
+  display: block;
 }
 
 #discord-butt:hover {
-    height: 65px;
-    width: 65px;
+  height: 65px;
+  width: 65px;
 }
-
