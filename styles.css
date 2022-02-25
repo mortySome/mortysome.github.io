@@ -47,7 +47,7 @@ body{
 #github-butt:hover {
   height: 65px;
   width: 65px ;
-  box-shadow: -8px -8px rgb(81, 255, 0);
+  box-shadow: -8px -8px lightgreen ;
 }
 
 #discord-butt {
@@ -68,5 +68,5 @@ body{
 #discord-butt:hover {
   height: 65px;
   width: 65px;
-  box-shadow: -8px -8px rgba(0, 38, 255, 0.822);
+  box-shadow: -8px -8px blue ;
 }
