@@ -35,7 +35,7 @@ body{
  
 #github-butt {
   position: absolute;
-  box-shadow: 8px 8px #000000;
+  box-shadow: 8px 8px #00fff2;
   border-radius: 50%;
   border-style: none;
   height: 50px;
@@ -51,7 +51,7 @@ body{
 
 #discord-butt {
   position: absolute;
-  box-shadow: 8px 8px #000000;
+  box-shadow: 8px 8px #ff0000;
   border-radius: 50%;
   border-style: none;
   height: 50px;
