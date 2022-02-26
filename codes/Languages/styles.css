@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+
+  background: rgb(58,138,234) ;
+  background: linear-gradient(180deg, rgba(58,138,234,1) 22%, rgba(255,0,0,1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+
+    background: #8a2387 ;
+    background-image:  linear-gradient(to right, #8a2387, #e94057, #f27121) ;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#Welcome {
+  text-align: center;
+  font-family: Pacifico;
+  font-size: 50px;
+}
+
+#morty {
+  height: 60px ;
+  width: 60px ;
+  margin-left: 48%;
+}
+
+#p1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+
+}
+ 
+/*Buttons*/
+#github-butt {
+  position: absolute;
+  box-shadow: 8px 8px #00fff2;
+  border-radius: 50%;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  margin-left: 37%;
+  transition: 0.5s;
+}
+
+#discord-butt {
+  position: absolute;
+  box-shadow: 8px 8px #00ff73;
+  border-radius: 50%;
+  border-style: none;
+  height: 50px;
+  width: 50px ;
+  margin-left: 43%;
+  transition: 0.5s;
+}
+
+#button {
+  display: block;
+}
+
+#insta-butt {
+  position: absolute;
+  box-shadow: 8px 8px rgb(0, 60, 255);
+  border-radius: 50%;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  margin-left: 50% ;
+  transition: 0.5s;
+}
+
+#yt-butt {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-style: none;
+  box-shadow: 8px 8px yellowgreen;
+  margin-left: 57%;
+  border-radius: 50%;
+  transition: 00.5s;
+}
+
+/*Buttons End*/
+
+
+/*Hover Things*/
+#github-butt:hover {
+  height: 65px;
+  width: 65px ;
+  box-shadow: -8px -8px lightgreen ;
+}
+
+#discord-butt:hover {
+  height: 65px;
+  width: 65px;
+  box-shadow: -8px -8px blue ;
+}
+
+#insta-butt:hover {
+  height: 65px;
+  width: 65px;
+  box-shadow: -8px -8px #00ff9d;
+}
+
+#yt-butt:hover {
+  height: 65px;
+  width: 65px;
+  box-shadow: -8px -8px rgb(255, 0, 0);
+}
+/*Hover Things End*/
+
+
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  
+
+  #github-butt {
+    margin-left: 10%;
+  }
+
+  #discord-butt {
+    margin-left: 29%;
+
+  }
+
+  #insta-butt {
+    margin-left: 49%;
+  }
+  #yt-butt {
+    margin-left: 69%;
+  }
+
+}
