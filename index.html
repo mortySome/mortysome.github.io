@@ -1,69 +1,81 @@
+ <!--
+  
+███╗░░░███╗░█████╗░██████╗░████████╗██╗░░░██╗  ░██████╗░█████╗░███╗░░░███╗███████╗
+████╗░████║██╔══██╗██╔══██╗╚══██╔══╝╚██╗░██╔╝  ██╔════╝██╔══██╗████╗░████║██╔════╝
+██╔████╔██║██║░░██║██████╔╝░░░██║░░░░╚████╔╝░  ╚█████╗░██║░░██║██╔████╔██║█████╗░░
+██║╚██╔╝██║██║░░██║██╔══██╗░░░██║░░░░░╚██╔╝░░  ░╚═══██╗██║░░██║██║╚██╔╝██║██╔══╝░░
+██║░╚═╝░██║╚█████╔╝██║░░██║░░░██║░░░░░░██║░░░  ██████╔╝╚█████╔╝██║░╚═╝░██║███████╗
+╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░░░░╚═╝░░░  ╚═════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝
+ -->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="...."> <!--Add Description about your website--> 
-    <link rel="stylesheet" href="styles.css">
-    <meta name="keywords" content="......"> <!--Add Keywords-->
-    <meta name="author" content="...."> <!--Add author name-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="download.png" alt="morty pic"> </td>
-        <td><h1>Morty Some</h1>
-          <p><em>Programmer and <strong>Hacker</strong></em></p>
-          <p>Hello, I am a Programmer and Enthusiastic Learner and Hacker.</p>
-    </table>
-    <hr>
-    <h3>Programming Languages Known</h3>
-    <ul>
-      <li>Python</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <tr>
-        <th><strong>Dates</strong></th>
-        <th><strong>Work</strong></th>
-      </tr>
-      <tr>
-        <td><b>2019-2020</b></td>
-        <td>Designed a App</td>
-      </tr>
-      <tr>
-        <td><b>2020-2022</b></td>
-        <td>Learning Ethical Hacking</td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>
-        Hacking ⭐⭐⭐
-        </td>
-        <td>
-          Python ⭐⭐⭐
-        </td>
-      </tr>
-      <tr>
-        <td>
-        HTML ⭐⭐⭐⭐
-        </td>
-        <td>
-          CSS ⭐⭐⭐⭐⭐
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <a target="_blank" href="contact.html">Contact Me!</a>
-    <a target="_blank" href="hobbies.html">My Hobbies</a>
-
-  </body>
+<html lang="en-us">
+    <head>  
+        <title>Morty's Website</title>
+        <!--Meta Tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link Tags-->
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="cloud-1" src="Images/cloud.png" alt="cloud-image">
+            <h1>Im Morty</h1>
+            <p class="colored-p">A <span class="pro">Pro</span>grammer.</p>
+            <img class="cloud-2" src="Images/cloud.png" alt="cloud-image">
+            <img class="cloud-3" src="Images/cloud.png" alt="cloud-image">
+            <img id="mountain-img" src="Images/mountain.png" alt="mountain-image">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img id="pfp" src="Images/noice.png" alt="pfp">
+              <h2>Hello.</h2>
+              <p id="intro">Morty Here, I am a Very Enthusiastic Learner, Coder, Hacker and a Student Keep Scrolling Down for More Info!!!</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img id="code-gif" src="Images/coding.gif" alt="Coding-Gif">
+                <h3>Programming</h3>
+                <p>I started My Journey in 2020, when I contribued in making app and Found My real Passion. I am Working More On it and learning many more things...</p>
+              </div>
+              <div class="skill-row2">
+                <img id="hacking-gif" src="/Images/hacking.gif" alt="hacking-gif">
+                <h3>Hacking</h3>
+                <p>It is My Dream to become the best Ethical hacker in The World, I am a <a href="https://en.wikipedia.org/wiki/Grey_hat" target="_blank">Grey Hat</a> hacker still learning and working towards my Skills.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="programming-language-div">
+              <h2>Programming Languages Known By Me.</h2>
+              <div class="lang-imgs">
+              <img title="HTML-5" id="html-5-img" src="Images/html5.png" alt="html-image">
+              <img title="CSS" id="css-img" src="Images/css.png" alt="css-image">
+              <img title="Pyhton" id="python-img" src="Images/python.png" alt="Pyhon-Image">
+              <img title="JavaScript" id="js-img" src="Images/javascript.png" alt="JS-Image">
+              <img title="Node.js" id="nodejs-img" src="Images/nodejs.png" alt="Node.js-Img">
+              <p>And I  plan on Learning more Programming Languages in the upcoming Future!...</p>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <hr>
+          <div class="contact-me">
+            <h2>Get In Touch With Me</h2>
+            <h3>Wanna Talk?</h3>
+            <p>I always accept emails and love to talk to people... Make sure you click this button!</p>
+            <a class="btn" href="mailto:roomofcards@gmail.com">CONTACT ME</a>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <!--Links for Social Media-->
+            <a href="https://discord.com" target="_blank"><img title="discord link" id="discord-connections" src="Images/discord.png" alt="discord-img"></a>
+            <a href="https://instagram.com/morty_some_698" target="_blank"><img title="instagram link" id="instagram-connections" src="Images/instagram.png" alt="instagram-img"></a>
+            <p title="copyright" id="copyright">© Morty Some. All Rights Reserverd 2022</p>
+          </div>
+       </footer>   
+    </body>
 </html>
