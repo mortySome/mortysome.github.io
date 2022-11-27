@@ -208,5 +208,6 @@ h3 {
         height: 300px;
         width: 370px;
         background-size: cover;
+        text-align: center;
     }
 }
