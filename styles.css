@@ -20,6 +20,19 @@ hr {
     
 }
 
+/*Anchor Tags*/
+a {
+    color: #66bfbf;
+}
+
+a:hover {
+    color: #11999e;
+}
+
+a:active {
+    color: #82eded;
+}
+/*Headings*/
 h1 {
     font-size: 60px;
     line-height: 2;
@@ -92,6 +105,7 @@ h3 {
      padding: 10px;
 }
 
+/*Gifs-skills*/
 #code-gif {
     width: 50%;
     float: left;
@@ -106,38 +120,46 @@ h3 {
     width: 200px;
 }
 
+/*Connections-Footer*/
 #discord-connections {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin: 5px;
-    box-shadow: 8px 8px #21e735;
-    border-radius: 50%;
     border-style: none;
     transition: 0.5s;
 }
-
-#discord-connections:hover {
-    height: 65px;
-    width: 65px;
-    box-shadow: -8px -8px rgb(250, 196, 16);
-}
-
 #instagram-connections {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin: 5px;
-    box-shadow: 8px 8px #214ce7;
-    border-radius: 50%;
     border-style: none;
     transition: 0.5s;
+}
+#github-connections {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-style: none;
+    transition: 0.5s;
+}
+
+/*Hover-connections-footer*/
+#discord-connections:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
 }
 
 #instagram-connections:hover {
-    height: 65px;
-    width: 65px;
-    box-shadow: -8px -8px lightgreen;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
 }
 
+#github-connections:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;  
+}
+
+/*End-hover*/
 .bottom-container {
     background-color: #66bfbf;
     padding: 50px 0 20px;
