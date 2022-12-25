@@ -64,6 +64,7 @@ h3 {
 #pfp {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
 
 .cloud-1 {
