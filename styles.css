@@ -144,6 +144,14 @@ h3 {
     transition: 0.5s;
 }
 
+#FCC-connections {
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+    border-style: none;
+    transition: 0.5s;
+}
+
 /*Hover-connections-footer*/
 #discord-connections:hover {
     background-color: rgb(255, 255, 255);
@@ -160,6 +168,10 @@ h3 {
     border-radius: 50%;  
 }
 
+#FCC-connections:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
 /*End-hover*/
 .bottom-container {
     background-color: #66bfbf;
