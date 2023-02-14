@@ -16,7 +16,7 @@ Hi there! This is the repository for my personal website, where you can learn mo
 ![Preview of my website](preview.PNG)
 
 ## Live demo
-You can see the live demo of my website [here](https://mortysome.github.io{:target="_blank"}
+You can see the live demo of my website [here](https://mortysome.github.io)
 
 ## Contributions
 Contributions are always welcome! If you have any suggestions or find any bugs, please open an issue or make a pull request.
