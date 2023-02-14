@@ -120,6 +120,21 @@ h3 {
     height: 200px;
     width: 200px;
 }
+/*Contact me button*/
+#contact-btn {
+    font-family: sans-serif;
+    background-color: #11999e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+  }
+
+#contact-btn:hover {
+    background-color: #0f8b8d;
+    cursor: pointer;
+  }
 
 /*Connections-Footer*/
 #discord-connections {
@@ -152,6 +167,14 @@ h3 {
     transition: 0.5s;
 }
 
+#fiverr-connections {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    border-style: none;
+    transition: 0.5s;
+}
+
 /*Hover-connections-footer*/
 #discord-connections:hover {
     background-color: rgb(255, 255, 255);
@@ -169,6 +192,11 @@ h3 {
 }
 
 #FCC-connections:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#fiverr-connections:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
 }
