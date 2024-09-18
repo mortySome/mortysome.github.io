@@ -98,14 +98,6 @@ h3 {
      padding: 10px;
 }
 
-.skill-row2 {
-    width: 50%;
-     margin: 10px auto 10px auto;
-     text-align: right;
-     line-height: 2;
-     padding: 10px;
-}
-
 /*Gifs-skills*/
 #code-gif {
     width: 50%;
@@ -113,28 +105,6 @@ h3 {
     height: 200px;
     width: 200px;
 }
-
-#hacking-gif {
-    width: 50%;
-    float: right;
-    height: 200px;
-    width: 200px;
-}
-/*Contact me button*/
-#contact-btn {
-    font-family: sans-serif;
-    background-color: #11999e;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    text-align: center;
-  }
-
-#contact-btn:hover {
-    background-color: #0f8b8d;
-    cursor: pointer;
-  }
 
 /*Connections-Footer*/
 #discord-connections {
@@ -154,14 +124,6 @@ h3 {
 #github-connections {
     height: 40px;
     width: 40px;
-    margin: 5px;
-    border-style: none;
-    transition: 0.5s;
-}
-
-#FCC-connections {
-    height: 45px;
-    width: 45px;
     margin: 5px;
     border-style: none;
     transition: 0.5s;
@@ -191,14 +153,9 @@ h3 {
     border-radius: 50%;  
 }
 
-#FCC-connections:hover {
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-}
-
 #fiverr-connections:hover {
     background-color: rgb(255, 255, 255);
-    border-radius: 50%;
+    
 }
 /*End-hover*/
 .bottom-container {
