@@ -1,2 +1,2 @@
 
-Just images for website located at [index.html]
+Just images for website located [here][index.html]
